@@ -6,6 +6,8 @@ public class Solution_1 {
 	 * Date : 2018/11/01
 	 * time complexity : O(n)
 	 * space complexity : O(n)
+	 *
+	 * beats 100%
 	 */
 
 	public void moveZeroes(int[] nums) {

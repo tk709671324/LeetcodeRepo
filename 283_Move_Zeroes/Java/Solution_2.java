@@ -6,6 +6,8 @@ public class Solution_2 {
 	 * Date : 2018/11/01
 	 * time complexity : O(n)
 	 * space complexity : O(1)
+	 *
+	 * beats 100%
 	 */
 
 
