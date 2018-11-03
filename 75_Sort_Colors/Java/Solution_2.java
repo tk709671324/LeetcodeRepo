@@ -2,6 +2,16 @@ import java.util.Arrays;
 
 public class Solution_2 {
 	public void sortColors(int[] nums){
+		/**
+		 * Date : 2018/11/2
+		 *
+		 * beats 100 %
+		 *
+		 * time complexity : O(n)
+		 * space complexity : O(1）
+		 *
+		 * ps : 与第一个方法相比，遍历次数减少了
+		 */
 		//采用三路快排同样的思路
 		//用三个指针来标定三种不同的元素
 
