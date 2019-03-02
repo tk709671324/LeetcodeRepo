@@ -21,10 +21,10 @@ public class Solution_1 {
                 start = mid;
             } else {
                 //在下降部分
-                start = end;
+                end = mid;
             }
         }
 
-        return nums[start];
+        return nums[end];
     }
 }
