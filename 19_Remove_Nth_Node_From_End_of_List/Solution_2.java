@@ -1,7 +1,7 @@
 public class Solution_2 {
 
-//    Runtime: 6 ms, faster than 74.28% of Java online submissions for Remove Nth Node From End of List.
-//    Memory Usage: 38.1 MB, less than 12.37% of Java online submissions for Remove Nth Node From End of List.
+//    Runtime: 5 ms, faster than 100.00% of Java online submissions for Remove Nth Node From End of List.
+//    Memory Usage: 37.9 MB, less than 41.35% of Java online submissions for Remove Nth Node From End of List.
     //双指针方法
     public ListNode removeNthFromEnd(ListNode head, int n) {
         if (head == null) {
@@ -21,11 +21,7 @@ public class Solution_2 {
             cur = cur.next;
         }
 
-        if (cur.next.next == null) {
-            cur.next = null;
-        } else {
-            cur.next = cur.next.next;
-        }
+        cur.next = cur.next.next;
 
         return dummyHead.next;
     }
