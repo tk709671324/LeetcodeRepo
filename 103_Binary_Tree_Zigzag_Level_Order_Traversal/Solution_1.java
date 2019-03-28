@@ -32,7 +32,6 @@ public class Solution_1 {
             startLeft = !startLeft;
             res.add(curLevel);
         }
-
         return res;
     }
 }
