@@ -34,7 +34,6 @@ public class Solution_1 {
         for (int i = 0; i < k; i++) {
             res.add(pq.poll());
         }
-
         return res;
     }
 }
