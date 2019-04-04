@@ -1,7 +1,8 @@
 public class Solution_1 {
 
-//    Runtime: 17 ms, faster than 71.14% of Java online submissions for Combinations.
-//    Memory Usage: 41.5 MB, less than 85.00% of Java online submissions for Combinations.
+//    Runtime: 2 ms, faster than 96.10% of Java online submissions for Combinations.
+//    Memory Usage: 38.8 MB, less than 100.00% of Java online submissions for Combinations.
+
     private int n;
     private int k;
     private List<List<Integer>> output = new LinkedList<>();
@@ -12,7 +13,7 @@ public class Solution_1 {
             return;
         }
 
-        for (int i = first; i < n + 1; ++i) {
+        for (int i = first; i <= n + 1 - (k - combination.size()); ++i) {
 
             combination.add(i);
             backtrack(i + 1, combination);
